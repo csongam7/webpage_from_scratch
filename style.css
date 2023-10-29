@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
 .header{
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
     color: #F9FAF8;
     font-size: small;
-    /*padding-right: 120px;
-    padding-left: 120px;*/
+    padding-right: 200px;
+    padding-left: 200px;
     height: 300px;
-    width: 100%;
 }
 
 .link-container{

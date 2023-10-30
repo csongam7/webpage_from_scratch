@@ -9,8 +9,8 @@
     background-color: #1F2937;
     color: #F9FAF8;
     font-size: 18px;
-    padding-right: 150px;
-    padding-left: 150px;
+    padding-right: 250px;
+    padding-left: 250px;
     padding-bottom: 100px;
     height: auto;
 }
@@ -97,19 +97,37 @@ p{
     flex-direction: column;
     background-color: aliceblue;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 0 200px 0;
+    background-color: #FFFFFF;
 }
 
 .box{
-    width: 10px;
-    height: 0;
+    width: 40px;
+    height: 20px;
     padding: 50px;
-    border-radius: 5%;
-    border: 15px #3882F6;
+    border-radius: 10%;
+    border: 3px #3882F6;
     margin: 20px;
-    border-style: double;
+    border-style: solid;
     flex-wrap: nowrap;
 }
 
 .box-container{
     flex-direction: column;
+    align-items: center;
+    padding: 0 25px;
+}
+
+h1{
+    align-self: center;
+}
+
+.subtext{
+    text-align: center;
+}
+
+.container{
+    margin: 0 250px
 }

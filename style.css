@@ -179,3 +179,11 @@ h1{
     border-style: solid;
     width: 120px;
 }
+
+.footer{
+    background-color: #1F2937;
+    text-align: center;
+    justify-content: center;
+    padding: 2em;
+    color: #F9FAF8;
+}

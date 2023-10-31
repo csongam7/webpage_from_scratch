@@ -6,7 +6,7 @@
 
 .header{
     flex-direction: column;
-    background-color: #1F2937;
+    background-color: #008d1a;
     color: #F9FAF8;
     font-size: 18px;
     padding-right: 250px;
@@ -51,18 +51,32 @@ div{
 .header-content-left{
     flex-direction: column;
     height: fit-content;
-    width: 400px;
+    width: auto;
     color: #E5E7EB;
 }
 
+img{
+    width: 300px;
+    height: 100%;
+    border-radius: 10%;
+}
+
 button{
-    width: 90px;
-    background-color: #3882F6;
+    width: fit-content;
+    background-color: #ffffff;
     color: inherit;
     border-radius: 10%;
-    padding: 5px;
+    border-style: solid;
+    padding: 0 25px;
     margin-top: 10px;
     font-weight: bold;
+    color: #000000;
+}
+
+#earth{
+    background-color: #008d1a;
+    width: auto;
+    border-radius: 0;
 }
 
 #awesome{
@@ -104,11 +118,14 @@ p{
 }
 
 .box{
-    width: 40px;
-    height: 20px;
-    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 0;
     border-radius: 10%;
-    border: 3px #3882F6;
+    border: 5px #008d1a;
     margin: 20px;
     border-style: solid;
     flex-wrap: nowrap;
@@ -174,10 +191,8 @@ h1{
 }
 
 .sign-up-button{
-    border-width: 2px;
     border-color: #ffffff;
-    border-style: solid;
-    width: 120px;
+    width: fit-content;
 }
 
 .footer{
